@@ -1,5 +1,5 @@
 import { FaDiscord, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
-
+import Logo from '../../public/logo.png'
 const Footer = () => {
   return (
     <footer className="bg-black text-gray-300 py-12 px-6 md:px-16 border-t border-gray-800 pl-10">
@@ -7,9 +7,7 @@ const Footer = () => {
         
         <div>
           <div className="flex items-center space-x-2 mb-4">
-            <div className="w-8 h-8 rounded-full border-2 border-purple-500 flex items-center justify-center">
-              <span className="text-purple-500 font-bold text-xl">◉</span>
-            </div>
+            <img src={Logo} className="w-15" />
             <h2 className="text-white text-2xl font-bold">HalfArt</h2>
           </div>
           <p className="text-sm leading-relaxed mb-6">
